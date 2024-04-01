@@ -17,8 +17,10 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-
-	  <ProjectReference Include="..\name-sorter.core\name-sorter.core.csproj" />
+    
+    <ProjectReference Include="..\name-sorter.core\name-sorter.core.csproj" />
+    
+    <ProjectReference Include="..\name-sorter.core\name_z-sorter.core.csproj" />
     
   </ItemGroup>
 

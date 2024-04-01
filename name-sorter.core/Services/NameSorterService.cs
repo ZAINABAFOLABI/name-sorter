@@ -27,7 +27,7 @@ namespace name_sorter.core.Services
 
             foreach (var rawName in rawNames)
             {
-                var names = rawName.Split(" ");
+                var names = rawName.Trim().Split(" ");
                 if (names.Length < 2)
                 {
                     Console.WriteLine($"{rawName} is invalid. A name should have 1 last name and at least 1 given name.");
