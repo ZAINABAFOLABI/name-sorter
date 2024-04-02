@@ -1,13 +1,9 @@
-﻿using Moq;
+﻿using FluentAssertions;
+using Moq;
+using NameSorter.Core.Models;
+using NameSorter.Core.Services;
+using NameSorter.Core.Services.Interfaces;
 using Xunit;
-using FluentAssertions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using name_sorter.core.Services.Interfaces;
-using name_sorter.core.Services;
-using name_sorter.core.Models;
 
 
 namespace NameSorter.Tests
