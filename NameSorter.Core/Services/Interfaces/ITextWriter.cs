@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace name_sorter.core.Services.Interfaces
+namespace NameSorter.Core.Services.Interfaces
 {
    public interface ITextWriter
     {

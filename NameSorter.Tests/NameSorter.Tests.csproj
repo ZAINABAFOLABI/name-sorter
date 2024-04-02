@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-	<ProjectReference Include="..\name-sorter.core\name-sorter.core.csproj" />
+  
+    <ProjectReference Include="..\NameSorter.Core\NameSorter.Core.csproj" />
   </ItemGroup>
 
 </Project>

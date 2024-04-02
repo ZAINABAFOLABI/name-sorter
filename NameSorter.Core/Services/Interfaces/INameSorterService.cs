@@ -1,8 +1,8 @@
-﻿using name_sorter.core.Models;
+﻿using NameSorter.Core.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace name_sorter.core.Services.Interfaces
+namespace NameSorter.Core.Services.Interfaces
 {
     public interface INameSorterService
     {

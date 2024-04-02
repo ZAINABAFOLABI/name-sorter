@@ -1,10 +1,6 @@
-﻿using name_sorter.core.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
+﻿using NameSorter.Core.Services.Interfaces;
 
-namespace name_sorter.core.Services
+namespace NameSorter.Core.Services
 {
     public class FileTextReader : ITextReader
     {

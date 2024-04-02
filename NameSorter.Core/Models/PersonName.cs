@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace name_sorter.core.Models
+namespace NameSorter.Core.Models
 {
     public class PersonName
     {

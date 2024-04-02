@@ -1,12 +1,12 @@
-﻿using name_sorter.core.Services;
+﻿using NameSorter.Core.Services;
 
-namespace name_sorter.consoleapp
+namespace NameSorter.Consoleapp
 {
     internal class Program
     {
         async static Task Main(string[] args)
         {
-            //Handle when no file is passed
+            //Handles when no file is passed
             if(args.Length == 0)
             {
                 Console.WriteLine("Please pass the file name as the first argument.");
